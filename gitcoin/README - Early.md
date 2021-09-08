@@ -12,7 +12,7 @@ Thank you to our supporters from previous GitCoin Grant rounds. We appreciate th
 
 [Here’s a video](https://www.youtube.com/watch?v=gqqgPfCvCAQ) which describes some of what we’ve accomplished since the last round of grants. We are pleased to note that we won a prize from HackFS for our work on publishing Ethereum index data to IPFS. This work will go a long way towards the decentralization and democratization of the data.
 
-Here’s an updated schematic of How TrueBlocks Works.
+Here’s an updated schematic of [How TrueBlocks Works](https://drive.google.com/file/d/1hVFSmoy6kMRPSkwg6zZG47fxgUKVxwbc/view).
 
 [Check out this video](https://www.youtube.com/watch?v=IFbH010A-QA) which is a reminder of TrueBlocks’ "user-centric browsing"—a way of viewing Ethereum data that brings the data to you rather than you having to go to the data.
 
