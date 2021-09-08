@@ -1,5 +1,4 @@
 ## About
-----
 
 TrueBlocks is a user-centric data query and management tool for the Ethereum blockchain. Users can access, view and manage their data across multiple accounts and dApps fully decentralized and 100% privately.
 
@@ -8,7 +7,6 @@ TrueBlocks is one of the few tools that allows users to access data from the nod
 TrueBlocks gets us closer to realizing the dream of self-sovereign, permissionless, 18-decimal-place-accurate, reconciled access to your own data (or anyone else’s data for that matter) free of central parties and skewed incentives.
 
 ## Results from Previous Rounds
-----
 
 Thank you to our supporters from previous GitCoin Grant rounds. We appreciate the support you’ve provided to keep this mostly self-funded project going. 
 
@@ -19,7 +17,6 @@ Here’s an updated schematic of How TrueBlocks Works.
 [Check out this video](https://www.youtube.com/watch?v=IFbH010A-QA) which is a reminder of TrueBlocks’ "user-centric browsing"—a way of viewing Ethereum data that brings the data to you rather than you having to go to the data.
 
 ## Potential Use Cases
-----
 
 These are a few of the possible use cases...
 
@@ -33,7 +30,7 @@ These are a few of the possible use cases...
 All completely local to your own machine, perfectly private, uncensorable and immutable.
 
 ## How Future Contributions Will Help
-----
+
 We’ve accomplished a lot with your support, but there’s more work to do:
 
 - Complete the dAppNode docker package (this is a work-in-progress; we’ve hired someone to help with this)
