@@ -1,64 +1,65 @@
-## Open Issues:
-
-- Should you add Dawid and Michael (?) to the team??
-
 ## About
 
-TrueBlocks is a user-centric data indexer, query and monitoring tool for the Ethereum blockchain. Users can access, view and manage their chain data across multiple accounts and dApps using either their own node or a third-party node-provider like Infura.
+TrueBlocks is a user-centric data indexer, querying and caching layer, and monitoring tool for any EVM-based blockchain.
 
-TrueBlocks treats blockchain data like a “public good”, and unlike many index and data providers it retains the key benefits of a blockchain:
-- It limits dependency on a central gatekeeper as it is local-first software. No centralized front-end web 2.0 website.
-- It retains the integrity of the chain data.  No need for arbitrators or trust.
-- It provides complete privacy.  No web 2.0 website to undermine this.
-It promotes cheap, equitable and easy access to all chain data.  No rivalrous fee system, no spinners, no rate limiting, no truncated and unreconcilable data. 
+Users can extract and view data across multiple addresses and smart contracts using their own local node (or third-party node-providers if they must).
 
-TrueBlocks current and future capabilities include: 
-- View a complete history of address(es)/account(s) from any device (via TrueBlocks’ API)
-- Export fully reconciled transaction history by account/token over any period to QuickBooks, Excel, RStudio, CSV
-- Monitor purchased and airdropped tokens (where are my tokens? how many approvals?)
-- Manage and secure NFT collection (using IPFS and avoiding less secure IPFS gateways)
-- Receive off-chain email notifications/triggers of activity on addresses
-- Duplicate the indexing provided by theGraph 
-- Watch DAO activity (what votes are active?)
-- Build testing algorithms (eg digital twins) to facilitate smart contract audits and ongoing monitoring
+We intend to preserve blockchain data as a “public good,” unlike data providers who seem to want to capture it.
 
-TrueBlocks currently indexes Ethereum mainnet and Rinkeby, but with some modification can work on L2 side chains and other L1 blockchains. In addition, while this requires further investigation, TrueBlocks may serve as the engine to port centralized web 2.0 front-ends to fully-decentralized models.
+TrueBlocks retains the key benefits of open, permissionless blockchain data by:
+
+- it limits dependency on a central gatekeeper, as it runs local-first
+  - there are no centralized front-end web 2.0 websites
+- It retains the integrity of the chain data
+  - No need for arbitrators or trust
+- It provides complete privacy
+  - No web 2.0 website to undermine this
+- TrueBlocks promotes cheap, equitable, and easy access to all chain data
+  -   No rivalrous fee system, no spinners, no rate limiting, no truncated or unreconcilable data. 
+
+TrueBlocks' current and future capabilities include: 
+
+- View a complete history of address(es) from any desktop (via TrueBlocks’ Explorer)
+- Export fully reconciled transaction histories by account/token over any period
+- Export to QuickBooks, Excel, RStudio, CSV, etc.
+- Monitor tokens (Where are my tokens? How many do I have? How many have I approved?)
+- Manage and secure NFT collections (using IPFS directly)
+- Receive off-chain email notifications/triggers of activity on addresses (future)
+- Duplicate the indexing provided by coin incentivized indexers such as theGraph
+- Watch DAO activity (What proposals are active? Do I have to vote on something?)
+- Build testing algorithms (e.g. "digital twins") to facilitate smart contract testing, auditing, ongoing monitoring, and simulation
+
+TrueBlocks already indexes Ethereum mainnet and Rinkeby, but we are actively looking at other chains (such as Optimism).
 
 ## Results from Previous Rounds
 
 Thank you to our supporters from previous GitCoin Grant rounds. We appreciate the support you’ve provided to keep this mostly self-funded project going.
 
 We've been busy since the last Grant round:
-We recieved a grant from the Moloch DAO for our work on Trueblocks. Take a look here at a write-up we submitted for the grant.
-We spoke at the ETHCC(4) Conference in July about TrueBlocks. Here is a video from our talk.
-Dawid ? joined the TrueBlocks team as a fullstack developer; Michael Dodson joined on a parttime basis to help with communication and documentation.
-Completed testing and moved development to Erigon
-Helped multiple people index the entire chain using Erigon - one on Rinkeby; also, provided support to a few other teams who are exploring ways to incorporate TrueBlocks in their work.
-Updated website to reference proper docs
-Published IPFS to entire monitor hash 10 times 
-Complete re-write of Front End App
-Work on the Docker version; got it to work on dAppNode (docker)
 
+- Recieved a [grant from the Moloch DAO](https://docs.google.com/document/d/1IFXYAzSDtMSKQTuY2kos07ZLJLkRJy_eh8fFwMaciBE/edit) for our work on Trueblocks
+- We [spoke at the ETHCC4](https://www.youtube.com/watch?v=7KjhQPwKGdQ) Conference in July about TrueBlocks
+- Dawid Szlachta joined the TrueBlocks team as a fullstack developer; Matt Dodson joined on a parttime basis to help with communication and documentation
+- Completed migration to use the Erigon node as our primary node
+- Began complete re-write of Front End App
+- Completed first beta release of docker version
+- Automated most of the testing and documentation generation
+- Helped multiple people index two different Ethereum chains (mainnet and Rinkeby)
+- Major progress on our [documentation website](https://trueblocks.io/docs)
+- Made some videos explaining [new features in the Explorer](https://www.youtube.com/channel/UCAnakN-bJv_OsopuKVJCs3g)
+- Created a landing page for some [white papers](https://trueblocks.io/papers/) we've written
 
-[Here’s a video](https://www.youtube.com/watch?v=gqqgPfCvCAQ) which describes some of what we’ve accomplished since the last round of grants. We are pleased to note that we won a prize from HackFS for our work on publishing Ethereum index data to IPFS. This work will go a long way towards the decentralization and democratization of the data.
-
-Here’s an updated schematic of [How TrueBlocks Works](https://drive.google.com/file/d/1hVFSmoy6kMRPSkwg6zZG47fxgUKVxwbc/view).
-
-[Check out this video](https://www.youtube.com/watch?v=IFbH010A-QA) which is a reminder of TrueBlocks’ "user-centric browsing"—a way of viewing Ethereum data that brings the data to you rather than you having to go to the data.
-
-
-All completely local to your own machine, perfectly private, uncensorable and immutable.
 
 ## How Future Contributions Will Help
 
 We’ve accomplished a lot with your support, but there’s more work to do:
 
-- Finalize the dAppNode docker package · 
--     Improve on-boarding process (which needs a lot of work)
-- Continue to parallelize major parts of backend, speeding it up 10-fold or more
-- Work on front-end and different modules
-- Explore modification for L2 side chains
-- Explore architectures in anticipation of ETH 2.0 sharding
-- Finish documentation
+- Working on reference implementation (in paralellized GOlang) and whitepaper documenting indexing and querying layers 
+- Continuing to investigate custome stage for Erigon
+- Finalizing the dAppNode docker package 
+- Continue to engage with users for feedback
+- Continue re-design of frontend 
+- Continue to investigat other chains including L2s 
+- Completing full documentation for backend, API, and frontend 
 
-Please help us finalize the only true data query tool, which recognizes that data on the blockchain belongs to all of us, and as such facilitates full decentralization and democratization of Ethereum blockchain data.
+Please help us finalize the only true data query tool -- which recognizes that data on the blockchain belongs to all of us -- completely local to your own machine, perfectly private, uncensorable and immutable.
