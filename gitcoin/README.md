@@ -4,20 +4,18 @@ TrueBlocks is a user-centric data indexer, querying and caching layer, and monit
 
 Users can extract and view data across multiple addresses and smart contracts using their own local node (or third-party node-providers if they must).
 
-We intend to preserve blockchain data as a “public good,” unlike data providers who seem to want to capture it.
-
-TrueBlocks retains the key benefits of open, permissionless blockchain data by:
+Trueblocks treats blockchain data as a “public good” and unlike other indexers retains the key benefits of blockchains:
 
 - it limits dependency on a central gatekeeper, as it runs local-first
   - there are no centralized front-end web 2.0 websites
-- It retains the integrity of the chain data
-  - No need for arbitrators or trust
-- It provides complete privacy
-  - No web 2.0 website to undermine this
-- TrueBlocks promotes cheap, equitable, and easy access to all chain data
-  -   No rivalrous fee system, no spinners, no rate limiting, no truncated or unreconcilable data. 
+- it retains the integrity of the chain data
+  - no need for arbitrators or trust
+- it provides complete privacy
+  - no web 2.0 website to undermine this
+- it promotes cheap, equitable, and easy access to all chain data
+  -   no rivalrous fee system, no spinners, no rate limiting, no truncated or unreconcilable data. 
 
-TrueBlocks' current and future capabilities include: 
+TrueBlocks' current and future capabilities: 
 
 - View a complete history of address(es) from any desktop (via TrueBlocks’ Explorer)
 - Export fully reconciled transaction histories by account/token over any period
@@ -45,7 +43,7 @@ We've been busy since the last Grant round:
 - Completed first beta release of docker version
 - Automated most of the testing and documentation generation
 - Helped multiple people index two different Ethereum chains (mainnet and Rinkeby)
-- Major progress on our [documentation website](https://trueblocks.io/docs)
+- Made major progress on our [documentation website](https://trueblocks.io/docs)
 - Made some videos explaining [new features in the Explorer](https://www.youtube.com/channel/UCAnakN-bJv_OsopuKVJCs3g)
 - Created a landing page for some [white papers](https://trueblocks.io/papers/) we've written
 
@@ -62,4 +60,4 @@ We’ve accomplished a lot with your support, but there’s more work to do:
 - Continue to investigat other chains including L2s 
 - Completing full documentation for backend, API, and frontend 
 
-Please help us finalize the only true data query tool -- which recognizes that data on the blockchain belongs to all of us -- completely local to your own machine, perfectly private, uncensorable and immutable.
+Please help us finalize the only true data query tool which is completely local to your own machine, perfectly private, uncensorable and immutable.
